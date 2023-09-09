@@ -1,0 +1,60 @@
+@font-face {
+    font-family: titulo;
+    src: url("fuentes/cocogoose.ttf");
+}
+@font-face {
+      font-family: buttons;
+      src: url("fuentes/Cocogoose\ Pro\ Semilight-trial.ttf");
+}
+@font-face {
+  font-family: texto;
+  src: url("fuentes/Cocogoose\ Pro\ Light-trial.ttf");
+}
+
+body {
+  background-color: lightgrey;
+  text-align: center;
+  font-family: texto, sans-serif;
+}
+
+h1{
+    font-family: titulo, sans-serif;
+}
+
+#boxForm{
+background-color: white;
+width: 250px;
+margin: 50px auto;
+padding: 20px;
+border-radius: 25px;
+box-shadow: 0 0 15px;
+}
+
+.boton{
+    font-family: buttons, sans-serif;
+    width: 250px;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(43, 171, 230);
+    color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.input{
+    font-family: sans-serif;
+    width: 200px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    margin-top: 10px;
+}
+
+#restablecer{
+    width: 120px;
+    font-size: 12px;
+    background-color: rgb(241, 4, 4);
+    border: none;
+}
